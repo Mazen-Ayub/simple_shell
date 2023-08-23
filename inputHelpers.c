@@ -42,7 +42,8 @@ char *get_args(char *line, int *exe_ret)
 }
 
 /**
- * call_args - a function that partitions operators from commands and calls them
+ * call_args - a function that partitions operators from commands and calls
+ * them
  * @args: an array of arguments
  * @front: a double pointer to the beginning of args
  * @exe_ret: the return value of the parent process' last executed command
@@ -134,7 +135,8 @@ int run_args(char **args, char **front, int *exe_ret)
 }
 
 /**
- * handle_args - a function that gets, calls, and runs the execution of a command
+ * handle_args - a function that gets, calls, and runs the execution of
+ * a command
  * @exe_ret: the return value of the parent process' last executed command
  * Return: if an end-of-file is read - END_OF_FILE (-2)
  * If the input cannot be tokenized - -1
@@ -181,7 +183,8 @@ int handle_args(int *exe_ret)
 }
 
 /**
- * check_args - a function that checks if there are any leading ';', ';;', '&&', or '||'
+ * check_args - a function that checks if there are any leading
+ * ';', ';;', '&&', or '||'
  * @args: 2D pointer to tokenized commands and arguments
  * Return: If a ';', '&&', or '||' is placed at an invalid position - 2
  * Otherwise : 0
@@ -206,3 +209,4 @@ int check_args(char **args)
 	}
 	return (0);
 }
+

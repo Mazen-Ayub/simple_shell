@@ -49,7 +49,8 @@ char *get_location(char *command)
 }
 
 /**
- * fill_path_dir - a function that copies path but also replaces leading/sandwiched/trailing
+ * fill_path_dir - a function that copies path but also replaces
+ * leading/sandwiched/trailing
  * colons (:) with current working directory
  * @path: the colon-separated list of directories
  * Return: a copy of path with any leading/sandwiched/trailing colons replaced
@@ -138,3 +139,4 @@ list_t *get_path_dir(char *path)
 
 	return (head);
 }
+

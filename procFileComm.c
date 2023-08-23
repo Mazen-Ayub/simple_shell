@@ -4,8 +4,8 @@ int cant_open(char *file_path);
 int proc_file_commands(char *file_path, int *exe_ret);
 
 /**
- * cant_open - a function that if the file doesn't exist or lacks proper permissions, print
- * a cant open error
+ * cant_open - a function that if the file doesn't exist or lacks proper
+ * permissions, print a cant open error
  * @file_path: Path to the supposed file
  * Return: 127
  */
@@ -41,7 +41,8 @@ int cant_open(char *file_path)
 }
 
 /**
- * proc_file_commands - a function that takes a file and attempts to run the commands stored
+ * proc_file_commands - a function that takes a file and attempts to run
+ * the commands stored
  * within
  * @file_path: path to the file
  * @exe_ret: return value of the last executed command
@@ -120,3 +121,4 @@ int proc_file_commands(char *file_path, int *exe_ret)
 	free(front);
 	return (ret);
 }
+

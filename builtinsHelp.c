@@ -30,7 +30,8 @@ void help_all(void)
 }
 
 /**
- * help_alias - a function that displays information on the shellby builtin command 'alias'
+ * help_alias - a function that displays information on the shellby builtin
+ * command 'alias'
  */
 
 void help_alias(void)
@@ -53,7 +54,8 @@ void help_alias(void)
 }
 
 /**
- * help_cd - a function that displays information on the shellby builtin command 'cd'
+ * help_cd - a function that displays information on the shellby builtin
+ * command 'cd'
  */
 
 void help_cd(void)
@@ -74,7 +76,8 @@ void help_cd(void)
 }
 
 /**
- * help_exit - a function that displays information on the shellby builtin command 'exit'
+ * help_exit - a function that displays information on the shellby builtin
+ * command 'exit'
  */
 
 void help_exit(void)
@@ -91,7 +94,8 @@ void help_exit(void)
 }
 
 /**
- * help_help - a function that displays information on the shellby builtin command 'help'
+ * help_help - a function that displays information on the shellby builtin
+ * command 'help'
  */
 
 void help_help(void)
@@ -104,3 +108,4 @@ void help_help(void)
 	msg = "builtin command.\n";
 	write(STDOUT_FILENO, msg, _strlen(msg));
 }
+

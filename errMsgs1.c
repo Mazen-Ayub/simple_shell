@@ -4,7 +4,8 @@ char *error_126(char **args);
 char *error_127(char **args);
 
 /**
- * error_126 - a function that creates an error message for permission denied failures
+ * error_126 - a function that creates an error message for permission denied
+ * failures
  * @args: an array of arguments passed to the command
  * Return: the error string
  */
@@ -38,7 +39,8 @@ char *error_126(char **args)
 }
 
 /**
- * error_127 - a function that creates an error message for command not found failures
+ * error_127 - a function that creates an error message for command not found
+ * failures
  * @args: An array of arguments passed to the command
  * Return: The error string
  */
@@ -70,3 +72,4 @@ char *error_127(char **args)
 	free(hist_str);
 	return (error);
 }
+

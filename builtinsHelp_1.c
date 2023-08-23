@@ -6,7 +6,8 @@ void help_unsetenv(void);
 void help_history(void);
 
 /**
- * help_env - a function that displays information on the shellby builtin command 'env'
+ * help_env - a function that displays information on the shellby builtin
+ * command 'env'
  */
 
 void help_env(void)
@@ -17,7 +18,8 @@ void help_env(void)
 }
 
 /**
- * help_setenv - a function that displays information on the shellby builtin command 'setenv'
+ * help_setenv - a function that displays information on the shellby builtin
+ * command 'setenv'
  */
 
 void help_setenv(void)
@@ -32,7 +34,8 @@ void help_setenv(void)
 }
 
 /**
- * help_unsetenv - a function that displays information on the shellby builtin command
+ * help_unsetenv - a function that displays information on the shellby builtin
+ * command
  * 'unsetenv'
  */
 
@@ -46,3 +49,4 @@ void help_unsetenv(void)
 	msg = "message to stderr.\n";
 	write(STDOUT_FILENO, msg, _strlen(msg));
 }
+

@@ -5,8 +5,8 @@ void set_alias(char *var_name, char *value);
 void print_alias(alias_t *alias);
 
 /**
- * shellby_alias - a finction that builtin command that either prints all aliases, specific
- * aliases
+ * shellby_alias - a finction that builtin command that either prints all
+ * specific aliases
  * @args: array of arguments
  * @front: double pointer to the beginning of args
  * Return: If an error occurs - -1
@@ -53,8 +53,8 @@ int shellby_alias(char **args, char __attribute__((__unused__)) **front)
 }
 
 /**
- * set_alias - a finction that will either set an existing alias 'name' with a new value
- * 'value' or creates a new alias with 'name' and 'value'
+ * set_alias - a finction that will either set an existing alias 'name' with
+ * a new value 'value' or creates a new alias with 'name' and 'value'
  * @var_name: name of the alias
  * @value: value of the alias. First character is a '='
  */
@@ -114,8 +114,8 @@ void print_alias(alias_t *alias)
 }
 
 /**
- * replace_aliases - a function that goes through the arguments and replace any matching alias
- * with their value
+ * replace_aliases - a function that goes through the arguments and
+ * replace any matching alias with their value
  * @args: 2D pointer to the arguments
  * Return: 2D pointer to the arguments
  */
@@ -153,3 +153,4 @@ char **replace_aliases(char **args)
 
 	return (args);
 }
+

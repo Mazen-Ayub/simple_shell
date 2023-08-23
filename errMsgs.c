@@ -65,7 +65,8 @@ char *error_1(char **args)
 }
 
 /**
- * error_2_exit - a function that creates an error message for shellby_exit errors
+ * error_2_exit - a function that creates an error message for shellby_exit
+ * errors
  * @args: an array of arguments passed to the command
  * Return: the error string
  */
@@ -170,3 +171,4 @@ char *error_2_syntax(char **args)
 	free(hist_str);
 	return (error);
 }
+

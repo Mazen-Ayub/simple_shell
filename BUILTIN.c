@@ -78,7 +78,7 @@ int shellby_exit(char **args, char **front)
 }
 
 /**
- * shellby_cd - a function that changes the current directory of the shellby process
+ * shellby_cd - a function that changes the current directory of the shellby
  * @args: an array of arguments
  * @front: a double pointer to the beginning of args
  * Return: If the given string is not a directory - 2
@@ -159,7 +159,8 @@ int shellby_cd(char **args, char __attribute__((__unused__)) **front)
 }
 
 /**
- * shellby_help - a function that displays information about shellby builtin commands
+ * shellby_help - a function that displays information about shellby builtin
+ * commands
  * @args: an array of arguments
  * @front: a pointer to the beginning of args
  * Return: If an error occurs - -1
@@ -189,3 +190,4 @@ int shellby_help(char **args, char __attribute__((__unused__)) **front)
 
 	return (0);
 }
+

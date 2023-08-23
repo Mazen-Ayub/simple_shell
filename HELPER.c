@@ -58,7 +58,8 @@ char *get_pid(void)
 }
 
 /**
- * get_env_value - a function that gets the value corresponding to an environmental variable
+ * get_env_value - a function that gets the value corresponding to
+ * an environmental variable
  * @beginning: the environmental variable to search for
  * @len: the length of the environmental variable to search for
  * Return: if the variable is not found - an empty string
@@ -153,3 +154,4 @@ void variable_replacement(char **line, int *exe_ret)
 		}
 	}
 }
+
